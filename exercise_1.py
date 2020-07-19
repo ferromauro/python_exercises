@@ -7,8 +7,8 @@ print("\n")
 
 # Example 2
 print("*"*13 + " Example 2: Input from Keyboard.  "+"*"*13)
-a = input("Variabile a: ")
-b = input("Variabile b: ")
+a = input("Variable a: ")
+b = input("Variable b: ")
 result = a+b
 print(f"a is a variable: {type(a)}")
 print(f"b is a variable: {type(b)}")
@@ -18,8 +18,9 @@ print("\n")
 
 # Example 3
 print("*"*13 + " Example 3: Input from Keyboard.  "+"*"*13)
-a = int(input("Variabile a: "))
-b = int(input("Variabile b: "))
+print("PLEASE: use only numbers!!!")
+a = int(input("Variable a: "))
+b = int(input("Variable b: "))
 result = a+b
 print(f"a is a variable: {type(a)}")
 print(f"b is a variable: {type(b)}")
